@@ -1,0 +1,3 @@
+[submodule "app/src/main/assets/textdec"]
+	path = app/src/main/assets/textdec
+	url = https://github.com/paramsiddharth/textdec.git

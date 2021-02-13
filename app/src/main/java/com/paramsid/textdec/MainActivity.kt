@@ -11,6 +11,6 @@ class MainActivity : AppCompatActivity() {
 
 		val primaryWebView: WebView = findViewById(R.id.webview_primary)
 		primaryWebView.settings.javaScriptEnabled = true
-		primaryWebView.loadUrl("https://textdec.paramsid.com")
+		primaryWebView.loadUrl("file:///android_asset/textdec/index.html")
 	}
 }
