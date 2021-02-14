@@ -1,6 +1,7 @@
 package com.paramsid.textdec
 
 import android.os.Bundle
+import android.view.View
 import android.webkit.WebChromeClient
 import android.webkit.WebView
 import androidx.appcompat.app.AppCompatActivity
@@ -13,6 +14,7 @@ class MainActivity : AppCompatActivity() {
 		val primaryWebView: WebView = findViewById(R.id.webview_primary)
 		primaryWebView.settings.javaScriptEnabled = true
 		primaryWebView.settings.loadsImagesAutomatically = true
+		primaryWebView.overScrollMode = View.OVER_SCROLL_NEVER
 
 		primaryWebView.loadUrl("file:///android_asset/textdec/index.html")
 
